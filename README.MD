@@ -56,6 +56,7 @@ References
 
 [1] Peng, SL,et al."Construction of two-dimensional compactly supported orthogonal wavelets filters with linear phase".
     ACTA MATHEMATICA SINICA-ENGLISH SERIES 18.No.4(2002):719–726.
+    
 [2] P. Viola and M. J. Jones, Robust real-time face detection, International Journal of Computer Vision, 57 (2004), 
     pp.137–154. http://dx.doi.org/10.1023/B:VISI.0000013087.49260.fb. 
 
