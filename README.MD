@@ -32,6 +32,9 @@ opencv_traincascade usage reference to opencv homepage instruction
 https://docs.opencv.org/3.4.16/db/d28/tutorial_cascade_classifier.html
 https://docs.opencv.org/3.4.16/dc/d88/tutorial_traincascade.html
 
+face detection result
+![image](https://github.com/NanKeRen2020/wavelet_adboost_detection/blob/main/face_detect_result.jpg)
+
 
 Why Wavelet Template
 ====================
