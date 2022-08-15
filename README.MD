@@ -1,9 +1,9 @@
 About
 =====
 
-A nonrigid and rigid object including face face detection algorithm based on orthogonal wavelet 
+A nonrigid and rigid object including face detection algorithm based on orthogonal wavelet 
 
-with linear phase.This algorithm inspired from Viola-Jones haar-adboost, replace  
+with linear phase.This algorithm is inspired from Viola-Jones haar-adboost, replace  
 
 Haar-like templates with orthogonal wavelet templates.
 
@@ -23,7 +23,7 @@ in opencv-3.4.x/apps/traincascade/ folder after download opencv source code.
 
 You can reference to OpenCV buid instruction https://docs.opencv.org/3.4.16/d7/d9f/tutorial_linux_install.html.
 
-After build complete, you can find named opencv_traincascade excute binary with orthogonal wavelet feature 
+After build complete, you can find the opencv_traincascade excute binary with orthogonal wavelet feature 
 
 in opencv-3.4.x/build/bin/.
 
@@ -41,17 +41,19 @@ Why Wavelet Template
 
 1) Wavelet feature is 2D nonseperable based on wavelet theory, 
 
-which can detect any shape object including non rigid on image.
+which can detect any shape object including non rigid object on image.
 
 While haar feature is more suitable to detect rigid object on image,
 
-such as huamna face of image, otherwise it cannot get good detcion result.
+such as human face of image, otherwise it cannot get good detection result.
 
-2) Less feature number becase of Less feature templates than haar feature templates, 
+2) Less feature number becase of less feature templates than haar feature templates, 
 
 but can get complete feature representation for detcion object. 
 
-Bacase wavelet templates is 2D nonseperable, which can get all detail information in arbitrary dirction.
+Bacase wavelet templates is 2D nonseperable, which can get all detail information 
+
+in arbitrary dirction.
 
 
 References
