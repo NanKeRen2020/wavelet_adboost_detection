@@ -372,30 +372,30 @@ CvHaarEvaluator::Feature::Feature( int offset, bool _tilted,
     rect[2].r.height = h2;
     rect[2].weight   = wt2;
 
-    rect[3].r.x = x2;
-    rect[3].r.y = y2;
-    rect[3].r.width  = w2;
-    rect[3].r.height = h2;
-    rect[3].weight   = wt2;
+    rect[3].r.x = x3;
+    rect[3].r.y = y3;
+    rect[3].r.width  = w3;
+    rect[3].r.height = h3;
+    rect[3].weight   = wt3;
 
 
-    rect[4].r.x = x2;
-    rect[4].r.y = y2;
-    rect[4].r.width  = w2;
-    rect[4].r.height = h2;
-    rect[4].weight   = wt2;
+    rect[4].r.x = x4;
+    rect[4].r.y = y4;
+    rect[4].r.width  = w4;
+    rect[4].r.height = h4;
+    rect[4].weight   = wt4;
 
-    rect[5].r.x = x2;
-    rect[5].r.y = y2;
-    rect[5].r.width  = w2;
-    rect[5].r.height = h2;
-    rect[5].weight   = wt2;
+    rect[5].r.x = x5;
+    rect[5].r.y = y5;
+    rect[5].r.width  = w5;
+    rect[5].r.height = h5;
+    rect[5].weight   = wt5;
 
-    rect[6].r.x = x2;
-    rect[6].r.y = y2;
-    rect[6].r.width  = w2;
-    rect[6].r.height = h2;
-    rect[6].weight   = wt2;
+    rect[6].r.x = x6;
+    rect[6].r.y = y6;
+    rect[6].r.width  = w6;
+    rect[6].r.height = h6;
+    rect[6].weight   = wt6;
 
     for( int j = 0; j < CV_HAAR_FEATURE_MAX; j++ )
     {
